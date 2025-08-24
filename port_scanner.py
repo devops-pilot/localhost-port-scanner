@@ -31,7 +31,7 @@ def get_process_using_port(port):
                 return "Unknown"
     return "-"
 
-def scan_ports(start=1, end=1024):
+def scan_ports(start=1, end=5000):
     print(f"\n🔍 Scanning ports {start}–{end} on localhost...\n")
     open_ports = []
 
